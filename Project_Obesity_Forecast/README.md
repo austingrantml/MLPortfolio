@@ -28,6 +28,3 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
 - `obesity_prevalence_map.py`: Main script.
 - `obesity_prevalence_map.html`: Interactive map output.
 - `prophet_validation_2021_2023.html`: Validation visualization.
-
-## License
-[MIT License](LICENSE) *(Add a LICENSE file with MIT terms if open-source.)*
