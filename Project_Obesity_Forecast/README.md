@@ -3,10 +3,6 @@
 ## Overview
 This project forecasts U.S. adult obesity prevalence using Prophet, validated with 2021–2023 data, and visualized with an interactive Plotly choropleth map. Toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends.
 
-## Demo
-![Animation Demo](path-to-gif-or-screenshot.gif)  
-*(Record a short GIF of toggling modes and playing using LICEcap or ScreenToGif, then upload and link here.)*
-
 ## Features
 - Population-weighted national averages per year.
 - MAE validation per state (e.g., 0.14%–3.05%).
