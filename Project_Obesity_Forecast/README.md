@@ -23,7 +23,14 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
 1. **Install Dependencies**:
    - Ensure Python 3.7+ is installed.
    - Run: `pip install -r requirements.txt` to install required libraries (Prophet, Plotly, Pandas, NumPy, cmdstanpy).
-2. Ensure a SQLite DB (`health_cdc.sqlite`) with CDC BRFSS data is available.
+   - Note: `cmdstanpy` may require a C++ compiler (e.g., gcc) and internet for initial setup. If issues arise, try `pip install pystan` instead.
+2. **Prepare the Database**:
+   - Download the CDC BRFSS dataset from [Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System | Data | Centers for Disease Control and Prevention](https://www.cdc.gov/brfss/annual_data/annual_data.htm).
+   - Export the data to a SQLite database:
+     - Use DB Browser for SQLite (download from [DB Browser for SQLite](https://sqlitebrowser.org/)).
+     - Create a new database file named `health_cdc.sqlite`.
+     - Import the CSV data into a table named `cdc_health`.
+     - Ensure columns include: `LocationDesc`, `LocationAbbr`, `Topic`, `Data_Value`, `YearEnd`, `StratificationCategory1`, `Stratification1`.
 3. Run `obesity_prevalence.py` to generate the map and validation figure.
 
 ## Files
