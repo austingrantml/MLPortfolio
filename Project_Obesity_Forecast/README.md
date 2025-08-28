@@ -20,8 +20,10 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
 - Improving MAE outliers in smaller states (e.g., SD 3.05%) with partial pooling.
 
 ## Getting Started
-1. Ensure a SQLite DB (`health_cdc.sqlite`) with CDC BRFSS data is available.
-2. Install dependencies: `pip install prophet plotly pandas numpy`.
+1. **Install Dependencies**:
+   - Ensure Python 3.7+ is installed.
+   - Run: `pip install -r requirements.txt` to install required libraries (Prophet, Plotly, Pandas, NumPy, cmdstanpy).
+2. Ensure a SQLite DB (`health_cdc.sqlite`) with CDC BRFSS data is available.
 3. Run `obesity_prevalence.py` to generate the map and validation figure.
 
 ## Files
