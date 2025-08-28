@@ -25,12 +25,12 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
    - Run: `pip install -r requirements.txt` to install required libraries (Prophet, Plotly, Pandas, NumPy, cmdstanpy).
    - Note: `cmdstanpy` may require a C++ compiler (e.g., gcc) and internet for initial setup. If issues arise, try `pip install pystan` instead.
 2. **Prepare the Database**:
-   - Visit the CDC Data Portal: [CDC Data Portal](https://data.cdc.gov).
-   - Search for “Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System” (it’s the first result, with a youth version below it).
-   - Download the dataset (e.g., use the “Export” option to get CSV data).
+   - Visit the CDC website: [CDC](https://www.cdc.gov).
+   - Search for “Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System” or navigate to the BRFSS section (e.g., under “Data & Statistics” or “Chronic Disease”).
+   - Download the dataset for the desired years (look for data files like CSV or ASCII formats).
    - Use DB Browser for SQLite (download from [DB Browser for SQLite](https://sqlitebrowser.org/)) to:
      - Create a new database file named `health_cdc.sqlite`.
-     - Import the CSV data into a table named `cdc_health`.
+     - Import the downloaded data into a table named `cdc_health`.
      - Ensure columns include: `LocationDesc`, `LocationAbbr`, `Topic`, `Data_Value`, `YearEnd`, `StratificationCategory1`, `Stratification1`.
 3. Run `obesity_prevalence.py` to generate the map and validation figure.
 
