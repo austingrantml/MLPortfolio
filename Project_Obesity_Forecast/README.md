@@ -25,7 +25,7 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
    - Run: `pip install -r requirements.txt` to install required libraries (Prophet, Plotly, Pandas, NumPy, cmdstanpy).
    - Note: `cmdstanpy` may require a C++ compiler (e.g., gcc) and internet for initial setup. If issues arise, try `pip install pystan` instead.
 2. **Prepare the Database**:
-   - Download the CDC BRFSS dataset from, "https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Behavioral/hn4x-zwk7/about_data"
+   - Download the CDC BRFSS dataset from, "https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Behavioral/hn4x-zwk7"
    - Export the data to a SQLite database:
      - Use DB Browser for SQLite (download from [DB Browser for SQLite](https://sqlitebrowser.org/)).
      - Create a new database file named `health_cdc.sqlite`.
