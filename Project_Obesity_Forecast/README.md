@@ -26,24 +26,18 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
    - Note: `cmdstanpy` may require a C++ compiler (e.g., gcc) and internet for initial setup. If issues arise, try `pip install pystan` instead.
 
 2. **Dataset**  
-   This project uses the CDC’s **Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System (BRFSS)** dataset.  
-
-   👉 Download it directly from the CDC portal here:  
-   [CDC DNPAO BRFSS Dataset (CSV)](https://chronicdata.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Behavioral/nf89-v3kw)
+   The dataset has been pre-cleaned and included in this repository as `cdc_health.csv`. It contains only the necessary rows and columns required for this project, so you **do not need to download anything from the CDC portal**.  
 
    ### Preparing the Data
-   1. Click the link above and download the dataset as **CSV**.  
-   2. Save the file in this project folder and rename it to:  
-      ```
-      cdc_health.csv
-      ```
-   3. Use DB Browser for SQLite (or Python) to load this dataset into a table named `cdc_health`.  
-   4. Once the dataset is prepared, run `obesity_prevalence.py` to generate the visualizations.
+   1. Ensure `cdc_health.csv` is in the project folder.  
+   2. Use DB Browser for SQLite (or Python) to load this dataset into a table named `cdc_health`.  
+   3. Once the dataset is prepared, run `obesity_prevalence.py` to generate the visualizations.
 
 ## Files
 - `obesity_prevalence.py`: Main script generating the forecast and visualizations.
 - `obesity_prevalence_map.html`: Interactive choropleth map output.
 - `prophet_validation_2021_2023.html`: Validation visualization for selected states.
+- `cdc_health.csv`: Pre-cleaned dataset required for the script.
 
 ## License
 [MIT License](LICENSE) *(Add a LICENSE file with MIT terms if open-source.)*
