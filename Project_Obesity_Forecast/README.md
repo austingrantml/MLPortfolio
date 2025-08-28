@@ -1,7 +1,7 @@
 # U.S. Adult Obesity Prevalence Forecast (2011–2030)
 
 ## Overview
-This project forecasts U.S. adult obesity prevalence using Prophet, validated with 2021–2023 data, and visualized with an interactive Plotly choropleth map. Toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends.
+This project forecasts U.S. adult obesity prevalence using Prophet, validated with 2021–2023 data, and visualized with an interactive Plotly choropleth map. Toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends. The data is sourced from the CDC’s Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System, used for DNPAO’s Data, Trends, and Maps database.
 
 ## Features
 - Population-weighted national averages per year.
@@ -25,9 +25,10 @@ The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely d
    - Run: `pip install -r requirements.txt` to install required libraries (Prophet, Plotly, Pandas, NumPy, cmdstanpy).
    - Note: `cmdstanpy` may require a C++ compiler (e.g., gcc) and internet for initial setup. If issues arise, try `pip install pystan` instead.
 2. **Prepare the Database**:
-   - Download the CDC BRFSS dataset from, "https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Behavioral/hn4x-zwk7"
-   - Export the data to a SQLite database:
-     - Use DB Browser for SQLite (download from [DB Browser for SQLite](https://sqlitebrowser.org/)).
+   - Visit the CDC Data Portal: [CDC Data Portal](https://data.cdc.gov).
+   - Search for “Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System” (it’s the first result, with a youth version below it).
+   - Download the dataset (e.g., use the “Export” option to get CSV data).
+   - Use DB Browser for SQLite (download from [DB Browser for SQLite](https://sqlitebrowser.org/)) to:
      - Create a new database file named `health_cdc.sqlite`.
      - Import the CSV data into a table named `cdc_health`.
      - Ensure columns include: `LocationDesc`, `LocationAbbr`, `Topic`, `Data_Value`, `YearEnd`, `StratificationCategory1`, `Stratification1`.
