@@ -1,0 +1,5 @@
+prophet
+plotly
+pandas
+numpy
+cmdstanpy  # Required by Prophet for modern setups
