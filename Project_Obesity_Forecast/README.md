@@ -1,23 +1,26 @@
 # U.S. Adult Obesity Prevalence Forecast (2011–2030)
 
 ## Overview
-This project forecasts U.S. adult obesity prevalence using Prophet, validated with 2021–2023 data, and visualized with an interactive Plotly choropleth map. Toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends. The data is sourced from the CDC’s Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System, used for DNPAO’s Data, Trends, and Maps database.
+This project forecasts U.S. adult obesity prevalence using Prophet, validated with 2021–2023 data, and visualized with an interactive Plotly choropleth map. Toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends. The data is sourced from the CDC’s Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System (BRFSS), used for DNPAO’s Data, Trends, and Maps database.
 
 ## Features
 - Population-weighted national averages per year.
 - MAE validation per state (e.g., 0.14%–3.05%).
 - Interactive map with hover details.
+- Comparison to external forecasts such as Harvard’s Happy Faces survey and CDC projections.
 
 ## Tech Stack
 - **Languages/Tools**: Python, SQL
 - **Libraries**: Prophet, Plotly, Pandas, NumPy
 - **Future Skills**: Scikit-learn, TensorFlow (via IBM ML Cert)
 
-## Limitations & Future Work
-The 2030 forecast (37.27%) underpredicts the CDC’s 2023 rate (40.3%), likely due to post-2020 structural changes (e.g., pandemic effects) not captured in the 2011–2020 training data. Prophet suits smooth trends but may lag on sudden shifts. Future enhancements include:
-- Continuous retraining.
-- Testing LSTM, XGBoost with features, or Bayesian hierarchical forecasting.
-- Improving MAE outliers in smaller states (e.g., SD 3.05%) with partial pooling.
+## Key Insights & Limitations
+- Prophet population-weighted 2030 forecast: **37.27%**
+- Current adult obesity prevalence (CDC, 2023): **~40.3%**
+- Harvard “Happy Faces” 2030 forecast: **~48%**
+- CDC/NJEM 2030 forecast: **~43–44%**
+
+Prophet provides smooth long-term trend forecasting but can lag behind sudden structural shifts (e.g., post-2020 pandemic effects), which explains why the model’s 2030 forecast is slightly more conservative than CDC or Harvard projections. Future work could include testing LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid trend changes.
 
 ## Getting Started
 1. **Install Dependencies**:
