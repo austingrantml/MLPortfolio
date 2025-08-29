@@ -16,24 +16,20 @@ This project forecasts U.S. adult obesity prevalence using Prophet, validated wi
 
 ## Key Insights & Limitations
 - Prophet population-weighted 2030 forecast: **37.27%**
-- Current adult obesity prevalence (CDC, 2023): **~40.3%**
-- Harvard “Happy Faces” 2030 forecast: **~48%**
-- CDC/NJEM 2030 forecast: **~43–44%**
-
-Prophet provides smooth long-term trend forecasting but can lag behind sudden structural shifts (e.g., post-2020 pandemic effects), which explains why the model’s 2030 forecast is slightly more conservative than CDC or Harvard projections. Future work could include testing LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid trend changes.
+- Current adult obesity prevalence (CDC, 2023 estimate): **~40.3%**
+- Harvard T.H. Chan School of Public Health 2030 forecast (NJEM, 2019): **~48%**
+Prophet provides smooth long-term trend forecasting but can lag behind sudden structural shifts (e.g., post-2020 pandemic effects), which explains why the model’s 2030 forecast is more conservative than the Harvard projection. Future work will include testing LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid trend changes.
 
 ## Getting Started
 1. **Install Dependencies**:
    - Ensure Python 3.7+ is installed.
    - Run: `pip install -r requirements.txt` to install required libraries (Prophet, Plotly, Pandas, NumPy, cmdstanpy).
    - Note: `cmdstanpy` may require a C++ compiler (e.g., gcc) and internet for initial setup. If issues arise, try `pip install pystan` instead.
-
-2. **Dataset**  
-   The dataset has been pre-cleaned and included in this repository as `cdc_health.csv`. It contains only the necessary rows and columns required for this project, so you **do not need to download anything from the CDC portal**.  
-
+2. **Dataset**
+   The dataset has been pre-cleaned and included in this repository as `cdc_health.csv`. It contains only the necessary rows and columns required for this project, so you **do not need to download anything from the CDC portal**.
    ### Preparing the Data
-   1. Ensure `cdc_health.csv` is in the project folder.  
-   2. Use DB Browser for SQLite (or Python) to load this dataset into a table named `cdc_health`.  
+   1. Ensure `cdc_health.csv` is in the project folder.
+   2. Use DB Browser for SQLite (or Python) to load this dataset into a table named `cdc_health`.
    3. Once the dataset is prepared, run `obesity_prevalence.py` to generate the visualizations.
 
 ## Files
