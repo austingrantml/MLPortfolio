@@ -56,3 +56,5 @@ pip install -r requirements.txt
 
 # Run the project
 python main.py
+
+Thank you for visiting my ML Portfolio! Feel free to explore the projects and reach out with any questions.
