@@ -4,6 +4,10 @@
 This project forecasts U.S. adult obesity prevalence using **Prophet**, validated with 2021–2023 data, and visualized through an **interactive Plotly choropleth map**. Users can toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends.  
 Data source: CDC’s Behavioral Risk Factor Surveillance System (BRFSS), used in DNPAO’s *Data, Trends, and Maps* database.
 
+📍 Below is the forecast for **2030** using our Prophet model:  
+
+![Adult Obesity Prevalence by State - 2030 (Predicted)](map_screenshot.png)
+
 ## Motivation
 Adult obesity is one of the most pressing U.S. public health challenges. Forecasting prevalence helps policymakers, researchers, and healthcare organizations measure progress toward national health goals like **Healthy People 2030**.
 
