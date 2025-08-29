@@ -15,11 +15,12 @@ This project forecasts U.S. adult obesity prevalence using Prophet, validated wi
 - **Future Skills**: Scikit-learn, TensorFlow (via IBM ML Cert)
 
 ## Key Insights & Limitations
-- Prophet population-weighted 2030 forecast: **37.27%**
-- Current adult obesity prevalence (CDC, 2023 estimate): **~40.3%**
-- Harvard T.H. Chan School of Public Health 2030 forecast (NJEM, 2019): **~48%**
-
-Prophet provides smooth long-term trend forecasting but can lag behind sudden structural shifts (e.g., post-2020 pandemic effects), which explains why the model’s 2030 forecast is more conservative than the Harvard projection. Future work will include testing LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid trend changes.
+- Healthy People 2030 goal (U.S. Department of Health and Human Services): **36.0%** (aim to reduce adult obesity prevalence through healthy eating and physical activity, developed via a collaborative process with government agencies and experts, supported by efforts from RFK Jr. and the administration to improve national health)
+- Prophet population-weighted 2030 forecast: **37.27%** (potentially the closest to reality if these efforts succeed)
+- Current adult obesity prevalence (CDC, August 2021–August 2023): **40%** (severe obesity: 9.4%; slight decrease from previous years, breaking a trend of increasing rates, though above the 36.0% goal, with recent figures around 40–42%)
+- Harvard T.H. Chan School of Public Health 2030 forecast (NJEM, 2019): **~48%** (national average)
+- American Journal of Preventive Medicine 2030 forecast (AJPM, 2012): **~44%**
+Prophet’s 2030 forecast (37.27%) is more conservative, possibly due to its pre-2020 training data missing post-pandemic shifts, and aligns closely with the Healthy People 2030 goal if current health initiatives succeed. The variance among forecasts (37%–48%) reflects differences in data periods and modeling methods. Future work could explore LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid changes.
 
 ## Getting Started
 1. **Install Dependencies**:
