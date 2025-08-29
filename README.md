@@ -26,7 +26,7 @@ This repository highlights projects that showcase **model development, data prep
 - Compared results with external studies for actionable insights  
 
 **Preview:**  
-![U.S. Adult Obesity Prevalence Map 2030 (37.27%)](https://github.com/austingrantml/Project_Obesity_Forecast/blob/main/map_screenshot.png)  
+ ![U.S. Adult Obesity Prevalence Map](map_screenshot.png)
 
 **Link to Notebook / Code:** [Project Code](https://github.com/austingrantml/Project_Obesity_Forecast)
 
