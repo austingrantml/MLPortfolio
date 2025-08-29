@@ -1,69 +1,71 @@
-Austin’s Machine Learning Portfolio
+# Austin’s Machine Learning Portfolio
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![ML](https://img.shields.io/badge/Machine%20Learning-Portfolio-orange) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 A curated portfolio of ML experiments, models, and practical applications demonstrating applied data science and machine learning skills.
 
-👋 About Me
+---
 
-Hi! I’m Austin, an aspiring Machine Learning Engineer passionate about solving real-world problems with Python, data analysis, and machine learning.
-This repository highlights projects that showcase model development, data preprocessing, visualization, and predictive analytics.
+## 👋 About Me
+Hi! I’m **Austin**, an aspiring Machine Learning Engineer passionate about solving real-world problems with Python, data analysis, and machine learning.  
+This repository highlights projects that showcase **model development, data preprocessing, visualization, and predictive analytics**.
 
-Skills & Tools: Python, SQL, Pandas, NumPy, Matplotlib, Plotly, Prophet, TensorFlow, PyTorch, Git/GitHub
+**Skills & Tools:** Python, SQL, Pandas, NumPy, Matplotlib, Plotly, Prophet, TensorFlow, PyTorch, Git/GitHub
 
-🏗 Projects
-1. U.S. Adult Obesity Prevalence Forecast (2011–2030)
+---
 
-Description: Forecasts U.S. adult obesity prevalence through 2030 using Prophet, validated with 2021–2023 CDC data. Features an interactive Plotly choropleth map showing historical vs predicted trends and benchmarked against Harvard and AJPM studies.
+## 🏗 Projects
 
-Technologies: Python, SQL, Prophet, Plotly, Pandas, NumPy
+### 1. **U.S. Adult Obesity Prevalence Forecast (2011–2030)**
+**Description:** Forecasts U.S. adult obesity prevalence through 2030 using **Prophet**, validated with 2021–2023 CDC data. Features an **interactive Plotly choropleth map** showing historical vs predicted trends and benchmarked against Harvard and AJPM studies.  
 
-Highlights:
+**Technologies:** Python, SQL, Prophet, Plotly, Pandas, NumPy  
 
-Achieved a 37.27% population-weighted forecast for 2030 (Healthy People 2030 target: 36.0%)
+**Highlights:**  
+- Achieved a **37.27% population-weighted forecast** for 2030 (Healthy People 2030 target: 36.0%)  
+- **Validation:** MAE between 0.14%–3.05% across states  
+- Compared results with external studies for actionable insights  
 
-Validation: MAE between 0.14%–3.05% across states
+**Preview:**  
+![U.S. Adult Obesity Prevalence Map 2030 (37.27%)](https://github.com/austingrantml/Project_Obesity_Forecast/blob/main/map_screenshot.png)  
 
-Compared results with external studies for actionable insights
+**Link to Notebook / Code:** [Project Code](https://github.com/austingrantml/Project_Obesity_Forecast)
 
-Preview:
+---
 
+### 2. **[Project Name 2]**
+**Description:** Short summary highlighting the problem it solves or insight it provides.  
 
-Link to Notebook / Code: Project Code
+**Technologies:** Python, TensorFlow, PyTorch, etc.  
 
-2. [Project Name 2]
+**Highlights:**  
+- Key achievement or learning (e.g., improved model accuracy by X%)  
+- Any notable data visualization or ML technique applied  
 
-Description: Short summary highlighting the problem it solves or insight it provides.
+**Preview:**  
+![Project 2 Screenshot](https://via.placeholder.com/600x300.png?text=Project+2+Screenshot)  
 
-Technologies: Python, TensorFlow, PyTorch, etc.
+**Link to Notebook / Code:** [Project 2 Notebook](link-to-your-notebook)
 
-Highlights:
+---
 
-Key achievement or learning (e.g., improved model accuracy by X%)
+### 3. **[Project Name 3]**
+**Description:** Brief overview of project purpose and outcomes.  
 
-Any notable data visualization or ML technique applied
+**Technologies:** Python, Pandas, Matplotlib, Plotly, etc.  
 
-Preview:
+**Highlights:**  
+- Key achievement or insight  
+- Techniques, preprocessing steps, or model improvements  
 
+**Preview:**  
+![Project 3 Screenshot](https://via.placeholder.com/600x300.png?text=Project+3+Screenshot)  
 
-Link to Notebook / Code: Project 2 Notebook
+**Link to Notebook / Code:** [Project 3 Notebook](link-to-your-notebook)
 
-3. [Project Name 3]
+---
 
-Description: Brief overview of project purpose and outcomes.
-
-Technologies: Python, Pandas, Matplotlib, Plotly, etc.
-
-Highlights:
-
-Key achievement or insight
-
-Techniques, preprocessing steps, or model improvements
-
-Preview:
-
-
-Link to Notebook / Code: Project 3 Notebook
-
-⚡ How to Run Projects
+## ⚡ How to Run Projects
+```bash
 # Clone the repository
 git clone https://github.com/YourUsername/ML-Portfolio.git
 
