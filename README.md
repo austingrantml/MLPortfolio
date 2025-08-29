@@ -37,8 +37,6 @@ Hi! I'm Austin, an aspiring Machine Learning Engineer passionate about solving r
 ![Project 3 Screenshot](https://via.placeholder.com/600x300.png?text=Project+3+Screenshot)  
 **Link to Notebook / Code:** [Project 3 Notebook](link-to-your-notebook)
 
-> Add more projects as needed. Visuals make your portfolio stand out to recruiters!
-
 ---
 
 ## How to Run
