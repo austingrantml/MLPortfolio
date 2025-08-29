@@ -18,6 +18,7 @@ This project forecasts U.S. adult obesity prevalence using Prophet, validated wi
 - Prophet population-weighted 2030 forecast: **37.27%**
 - Current adult obesity prevalence (CDC, 2023 estimate): **~40.3%**
 - Harvard T.H. Chan School of Public Health 2030 forecast (NJEM, 2019): **~48%**
+
 Prophet provides smooth long-term trend forecasting but can lag behind sudden structural shifts (e.g., post-2020 pandemic effects), which explains why the model’s 2030 forecast is more conservative than the Harvard projection. Future work will include testing LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid trend changes.
 
 ## Getting Started
