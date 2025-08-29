@@ -1,26 +1,43 @@
 # U.S. Adult Obesity Prevalence Forecast (2011–2030)
 
 ## Overview
-This project forecasts U.S. adult obesity prevalence using Prophet, validated with 2021–2023 data, and visualized with an interactive Plotly choropleth map. Toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends. The data is sourced from the CDC’s Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System (BRFSS), used for DNPAO’s Data, Trends, and Maps database.
+This project forecasts U.S. adult obesity prevalence using **Prophet**, validated with 2021–2023 data, and visualized through an **interactive Plotly choropleth map**. Users can toggle between **Observed (2011–2023)** and **Predicted (2024–2030)** modes to explore trends.  
+Data source: CDC’s Behavioral Risk Factor Surveillance System (BRFSS), used in DNPAO’s *Data, Trends, and Maps* database.
+
+## Motivation
+Adult obesity is one of the most pressing U.S. public health challenges. Forecasting prevalence helps policymakers, researchers, and healthcare organizations measure progress toward national health goals like **Healthy People 2030**.
+
+---
 
 ## Features
-- Population-weighted national averages per year.
-- MAE validation per state (e.g., 0.14%–3.05%).
-- Interactive map with hover details.
-- Comparison to external forecasts such as Harvard’s Happy Faces survey and CDC projections.
+- 📈 **Population-weighted national averages** per year.  
+- ✅ **Validation per state** using 2021–2023 data (MAE 0.14%–3.05%).  
+- 🌍 **Interactive choropleth map** with hover details + mode toggle.  
+- 🔗 **Comparisons** to external forecasts (Harvard, CDC, AJPM).  
+
+---
 
 ## Tech Stack
-- **Languages/Tools**: Python, SQL
-- **Libraries**: Prophet, Plotly, Pandas, NumPy
-- **Future Skills**: Scikit-learn, TensorFlow (via IBM ML Cert)
+- **Languages/Tools**: Python, SQL  
+- **Libraries**: Prophet, Plotly, Pandas, NumPy  
+- **Future Skills**: Scikit-learn, TensorFlow (via IBM ML Cert)  
 
-## Key Insights & Limitations
-- Healthy People 2030 goal (U.S. Department of Health and Human Services): **36.0%** (aim to reduce adult obesity prevalence through healthy eating and physical activity, developed via a collaborative process with government agencies and experts, supported by efforts from RFK Jr. and the administration to improve national health)
-- Prophet population-weighted 2030 forecast: **37.27%** (potentially the closest to reality if these efforts succeed)
-- Current adult obesity prevalence (CDC, August 2021–August 2023): **40%** (severe obesity: 9.4%; slight decrease from previous years, breaking a trend of increasing rates, though above the 36.0% goal, with recent figures around 40–42%)
-- Harvard T.H. Chan School of Public Health 2030 forecast (NJEM, 2019): **~48%** (national average)
-- American Journal of Preventive Medicine 2030 forecast (AJPM, 2012): **~44%**
-Prophet’s 2030 forecast (37.27%) is more conservative, possibly due to its pre-2020 training data missing post-pandemic shifts, and aligns closely with the Healthy People 2030 goal if current health initiatives succeed. The variance among forecasts (37%–48%) reflects differences in data periods and modeling methods. Future work could explore LSTM, XGBoost, or Bayesian hierarchical models to better capture rapid changes.
+---
+
+## Key Insights
+- **Healthy People 2030 goal**: 36.0% adult obesity prevalence.  
+- **Current prevalence (CDC 2021–2023)**: ~40% (severe obesity: 9.4%).  
+- **Prophet forecast (2030, weighted)**: 37.27% — closer to the HP2030 target.  
+- **External forecasts**:  
+  - Harvard T.H. Chan / NEJM (2019): ~48%  
+  - AJPM (2012): ~44%  
+
+📌 Prophet’s conservative 37% forecast may reflect pre-2020 training data (less pandemic impact). The 37%–48% forecast range shows how modeling assumptions strongly influence long-term projections.
+
+---
+
+## Future Work
+- Explore alternative models: **LSTM, XGBoost, Bayesian hierarchical**.  
 
 ## Getting Started
 1. **Install Dependencies**:
