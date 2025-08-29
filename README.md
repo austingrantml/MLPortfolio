@@ -29,7 +29,7 @@ This repository showcases projects that highlight:
 - MAE of **0.14%–3.05%** across states  
 - Benchmarked against external studies for actionable insights  
 
-**Code / Notebook:** [View Project](https://github.com/austingrantml/Project_Obesity_Forecast)
+**Code / Notebook:** [View Project](https://github.com/austingrantml/MLPortfolio/tree/main/Project_Obesity_Forecast)
 
 ---
 
@@ -64,10 +64,10 @@ This repository showcases projects that highlight:
 ## ⚡ How to Run Projects
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/ML-Portfolio.git
+git clone https://github.com/austingrantml/MLPortfolio.git
 
 # Navigate to project folder
-cd ML-Portfolio/Project_Obesity_Forecast
+cd MLPortfolio/Project_Obesity_Forecast
 
 # Install dependencies
 pip install -r requirements.txt
