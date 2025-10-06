@@ -33,34 +33,6 @@ This repository showcases projects that highlight:
 
 ---
 
-### 2. **[Project Name 2]** ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange) ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
-**Description:** Short summary highlighting the problem solved or insight generated.  
-
-**Technologies:** Python, TensorFlow, PyTorch, Pandas  
-
-**Key Achievements:**  
-- Improved model accuracy by X%  
-- Applied advanced data preprocessing and feature engineering  
-- Developed visualizations for model evaluation  
-
-**Code / Notebook:** [View Project](link-to-your-notebook)
-
----
-
-### 3. **[Project Name 3]** ![DataViz](https://img.shields.io/badge/Visualization-Plotly-blueviolet)
-**Description:** Brief overview of project purpose and outcomes.  
-
-**Technologies:** Python, Pandas, Matplotlib, Plotly  
-
-**Key Achievements:**  
-- Extracted actionable insights from complex datasets  
-- Built custom visualizations to support analysis  
-- Applied ML techniques to real-world scenarios  
-
-**Code / Notebook:** [View Project](link-to-your-notebook)
-
----
-
 ## ⚡ How to Run Projects
 ```bash
 # Clone the repository
