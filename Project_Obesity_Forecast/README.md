@@ -66,7 +66,7 @@ This project is part of my Machine Learning & Data Analysis portfolio.
 If you’d like a **custom data cleaning automation or interactive visualization report** tailored to your dataset or business, feel free to [**hire me on Upwork**](https://www.upwork.com/freelancers/~01c74d29c36e07f543) or contact me directly for collaboration.
 
 ---
-## 🪪 License
-Licensed under the [MIT License](../../LICENSE).
+[MIT License](../LICENSE)
+
 
 
