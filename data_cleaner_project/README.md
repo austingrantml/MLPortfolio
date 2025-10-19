@@ -26,3 +26,8 @@ If you’d like a **custom data cleaning automation or interactive visualization
 ## 🧰 Usage
 ```bash
 python data_cleaner.py <input_file.csv>
+
+---
+## 🪪 License
+Licensed under the [MIT License](../../LICENSE).
+
