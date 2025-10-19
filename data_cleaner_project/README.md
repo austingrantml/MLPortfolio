@@ -22,13 +22,12 @@ It’s ideal for clients who need fast, clear, and interactive reports without m
 This project is part of my Machine Learning & Data Analysis portfolio.  
 If you’d like a **custom data cleaning automation or interactive visualization report** tailored to your dataset or business, feel free to [**hire me on Upwork**](https://www.upwork.com/freelancers/~01c74d29c36e07f543) or contact me directly for collaboration.
 
+[MIT License](../LICENSE)
 
 ## 🧰 Usage
 ```bash
 python data_cleaner.py <input_file.csv>
 
----
-[MIT License](../LICENSE)
 
 
 
