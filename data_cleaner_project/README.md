@@ -28,6 +28,10 @@ If you’d like a **custom data cleaning automation or interactive visualization
 ```bash
 python data_cleaner.py <input_file.csv>
 
+> ⚠️ This code is for educational and portfolio demonstration purposes.  
+> For commercial or client use, please contact me directly.
+
+
 
 
 
