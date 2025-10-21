@@ -33,24 +33,6 @@ This repository showcases projects that highlight:
 
 ---
 
-### 2. **Automated Data Cleaning & Visualization Tool (2025)** 🧹📊  
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![Plotly](https://img.shields.io/badge/Plotly-InteractiveCharts-orange) ![Pandas](https://img.shields.io/badge/Pandas-DataFrame-lightgrey)
-
-**Description:**  
-A fully automated tool that reads any CSV or Excel dataset, cleans messy data, performs summary statistics, and generates an **interactive HTML report** with embedded charts. Designed for clients or teams who need quick, professional data insights without manual processing.
-
-**Technologies:** Python, Pandas, NumPy, Plotly, HTML  
-
-**Key Features:**  
-- Handles **missing values**, **duplicates**, and **inconsistent formatting**  
-- Automatically produces **histograms**, **correlation heatmaps**, and **summary tables**  
-- Outputs a **cleaned dataset** (`cleaned_data.csv`) and a **single interactive report** (`report_summary.html`)  
-- Built for small businesses, researchers, and data professionals needing instant clarity  
-
-**Code / Notebook:** [View Project](https://github.com/austingrantml/MLPortfolio/tree/main/data_cleaner_project)
-
----
-
 ## ⚡ How to Run Projects
 ```bash
 # Clone the repository
